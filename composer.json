@@ -1,5 +1,5 @@
 {
-    "name": "akamai-open/netstorage1",
+    "name": "akamai-open/netstorage",
     "description": "Akamai NetStorage",
     "prefer-stable": true,
     "minimum-stability": "beta",
