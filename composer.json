@@ -1,0 +1,42 @@
+{
+    "name": "akamai-open/netstorage1",
+    "description": "Akamai NetStorage",
+    "prefer-stable": true,
+    "minimum-stability": "beta",
+    "require": {
+        "php": ">=5.5",
+        "akamai-open/edgegrid-client": "^1.0.0",
+        "league/flysystem": "^1.0",
+        "twistor/flysystem-stream-wrapper": "^1.0",
+        "ext-simplexml": "*",
+        "ext-dom": "*"
+    },
+    "require-dev": {
+        "roave/security-advisories": "dev-master",
+        "phpunit/phpunit": "^4.0",
+        "theseer/phpdox": "^0.12.0",
+        "phploc/phploc": "^2.1",
+        "squizlabs/php_codesniffer": "^2.3",
+        "dshafik/guzzlehttp-vcr": "dev-master"
+    },
+    "config": {
+        "platform": {
+            "php": "8.1.3"
+        }
+    },
+    "license": "Apache 2.0",
+    "authors": [{
+        "name": "Davey Shafik",
+        "email": "dshafik@akamai.com"
+    }],
+    "autoload": {
+        "psr-4": {
+            "Akamai\\NetStorage\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Akamai\\NetStorage\\Tests\\": "tests"
+        }
+    }
+}
